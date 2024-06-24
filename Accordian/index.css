@@ -1,0 +1,38 @@
+.accordian-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+
+.accordian_item{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+.accordian_title{
+    margin: 10px;
+}
+
+.whole{
+    width: 80%;
+    margin: 10%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.title{
+    text-align: center;
+    
+}
+
+.accordian_answer{
+    display: none;
+    margin: 20px;
+}
+
+.accordian_title.active + .accordian_answer{
+    display: block;
+}
